@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-09",
+  "scope": "Verified public HF source paths only; not exhaustive final manuscript evidence",
+  "source_revision_policy": "main resolves to a mutable ref; a downloaded lock file records the resolved HF commit SHA",
+  "observational_datasets": [
+    {
+      "id": "wuff-mann/ATLAS-WDS-v4",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/wuff-mann/ATLAS-WDS-v4",
+      "license_reported": "cc-by-4.0",
+      "role": "updated wave-spectra dataset",
+      "verification": "HF repository metadata, not manuscript cohort audit"
+    },
+    {
+      "id": "wuff-mann/ATLAS-WDS-v2",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/wuff-mann/ATLAS-WDS-v2",
+      "license_reported": "cc-by-4.0",
+      "role": "wave, wind, MEM/Fourier historical dataset",
+      "verification": "HF repository metadata"
+    },
+    {
+      "id": "wuff-mann/ATLAS-WDS",
+      "type": "dataset",
+      "url": "https://huggingface.co/datasets/wuff-mann/ATLAS-WDS",
+      "license_reported": "cc-by-4.0",
+      "role": "earlier pretraining dataset; not interchangeable with v4",
+      "verification": "HF repository metadata"
+    }
+  ],
+  "artifacts": [
+    {
+      "group": "reports",
+      "name": "C7C5 formal freeze decision",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式冻结判定.json",
+      "status": "frozen_contract_qualified",
+      "description": "Official freeze decision; read detailed cross-domain metrics and limitations."
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 formal summary",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式摘要.json",
+      "status": "frozen_contract_qualified",
+      "description": "1824-case stage summary; overall gain is not universally positive."
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 release manifest",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_发布清单.json",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 frozen-state hashes",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_冻结哈希审计.json",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 packet reliability",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_报文可靠性摘要.json",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 per-domain metrics",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_分域指标.csv",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 per-sample audit",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_最终逐样本审计.csv",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5 bootstrap intervals",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_Bootstrap区间.json",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C5D stage-final report",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/c5d_final_report.json",
+      "status": "stage_final_not_paper_final",
+      "description": "QUICK_TRAIN; old_system_available=false. Not a conclusive old/new benchmark."
+    },
+    {
+      "group": "reports",
+      "name": "C5D stage-final summary",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/c5d_final_summary.csv",
+      "status": "stage_final_not_paper_final"
+    },
+    {
+      "group": "reports",
+      "name": "C5D original benchmark ZIP",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/C5D_final_benchmark_results.zip",
+      "status": "stage_final_not_paper_final"
+    },
+    {
+      "group": "reports",
+      "name": "C7C3 direct protocol release manifest",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C3_ProtocolV3_DirectV2/latest/C7C3_RELEASE_MANIFEST.json",
+      "status": "frozen_with_unpassed_followup_gate",
+      "description": "Frozen direct protocol, but the C7C3 decision qualified_for_C7C4=false."
+    },
+    {
+      "group": "reports",
+      "name": "C7C3 direct protocol decision",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C3_ProtocolV3_DirectV2/latest/C7C3_RELEASE_DECISION.json",
+      "status": "frozen_with_unpassed_followup_gate"
+    },
+    {
+      "group": "models",
+      "name": "C7C5 frozen model package",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/PACKAGE.pt",
+      "status": "frozen_contract_qualified",
+      "approx_size_mb": 323,
+      "unsafe_untrusted_pickle": true
+    },
+    {
+      "group": "models",
+      "name": "C7C3 exact-30B Direct package",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C3_ProtocolV3_DirectV2/latest/PACKAGE.pt",
+      "status": "frozen_with_unpassed_followup_gate",
+      "approx_size_mb": 318,
+      "unsafe_untrusted_pickle": true
+    },
+    {
+      "group": "code",
+      "name": "WaveSystem Set Parser V5 source",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "CNN.py",
+      "status": "public_reference_source"
+    },
+    {
+      "group": "code",
+      "name": "AC-SSVAE feature extractor source",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "VAE.py",
+      "status": "public_reference_source"
+    }
+  ]
+}

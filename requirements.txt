@@ -1,0 +1,3 @@
+# Manifest verification and original-HF downloader use Python standard library only.
+# To train/infer models, use the environment recorded by the exact experiment;
+# this file does not claim to reproduce the final neural training environment.

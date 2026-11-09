@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "mirroring_method": "JSON parsed from public HF raw file and pretty-printed; not byte-identical",
+  "date": "2026-11-09",
+  "canonical_repo": "wuff-mann/Wave_compress_system",
+  "official_primary_source": "https://huggingface.co/wuff-mann/Wave_compress_system",
+  "warning": "Do not substitute C7C5 or C5D for manuscript 1200-case results; original HF files remain authoritative."
+}

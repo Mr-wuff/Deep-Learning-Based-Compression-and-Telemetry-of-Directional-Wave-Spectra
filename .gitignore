@@ -1,0 +1,35 @@
+# Local datasets and weights
+downloads/
+data/raw/
+data/cache/
+checkpoints/
+models/*.pt
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.npz
+*.npy
+*.h5
+*.bin
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# Credentials
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+# Outputs and local metadata
+runs/
+outputs/
+logs/
+*.log
+.DS_Store
+Thumbs.db
