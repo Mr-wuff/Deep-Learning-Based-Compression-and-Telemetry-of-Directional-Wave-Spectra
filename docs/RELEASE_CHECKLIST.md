@@ -10,7 +10,7 @@ The GitHub repository is a research-evidence index and partial collection of con
 - [ ] Final exact-30B VAE/codec and LDM/gate training code, run configuration and environment pinned.
 - [ ] Synthetic segmentation and artifact-removal test generators and per-sample baseline CSVs released.
 - [ ] Classical spectrum comparison benchmark code, all input features and per-sample errors released.
-- [ ] The **1,200-case** historical pressure/stress-test scripts and complete raw outputs for initial 1,161-pass result archived, including all 3 seeds.
+- [ ] The **1,200-case** R7 original notebook, full report and NPZ have now been **found in author uploads**; publish these original bytes to a stable GitHub release or HF revision and reconcile the failed final qualification before describing availability.
 - [ ] The gate-revised **same-sample retest** clearly labeled as *post-adjustment within the same cohort*; a new independent test collected if making a fresh generalization claim.
 - [ ] C7C5 mixed negative gains and later formal failed production-stability audit reconciled with any manuscript statements of overall superiority or operational readiness.
 - [ ] The author-submitted AMS Data Availability Statement names the specific immutable source revisions and exact experimental artifacts, with no unresolved brackets.

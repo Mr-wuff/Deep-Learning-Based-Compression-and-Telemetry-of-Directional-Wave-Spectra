@@ -12,8 +12,8 @@ Only **located public assets** are marked 'located.' Values taken from the paper
 | §3.1 synthetic partitioning comparison | Figure in paper, early prototypes locally | Full final evaluation code and sample-level metrics **not located**; cannot claim raw scientific audit was deposited. |
 | §3.2 synthetic artifact-removal comparison | Figure in paper | Final dataset generator, benchmark labels and per-case results **not located**. |
 | §3.3 physical parameter scatter plots & classical comparisons | Figures/table in paper | Final evaluation script, case manifest and per-case scores **not located**. |
-| §3.4 initial blind stress test (1,161/1,200; 96.75%; 25.1% MSE improvement; 95% CI 23.1–26.9%) | Manuscript only | Original 1,200-case scripts and raw report ZIP **not located in verified public HF tree**. Not independently reproduced in this curation. |
-| §3.4 revised gate (1,200/1,200 on same cohort) | Manuscript only | **Same 1,200 cases were reused after failure analysis.** Not an independent new blind evaluation. |
+| §3.4 initial blind stress test (1,161/1,200; 96.75%; 25.1% MSE improvement; 95% CI 23.1–26.9%) | Manuscript only | **LOCATED in the author's uploaded R7 archive**, which contains an executed Notebook, final decision, 1,200 reference/Direct/candidate spectrum arrays (47×72), and raw method summaries. Relative MSE improvement **25.1248%** and reported bootstrap CI **23.13%–26.94%** match the manuscript. However, the formal audit **FAILED** its NNSI Dp-severe gate; the original full files are not yet deposited publicly in this GitHub repo. |
+| §3.4 revised gate (1,200/1,200 on same cohort) | Manuscript only | The R7 archive documents **no successful production freeze** (selected_model=null). A subsequent 1200/1200 passing report matching the manuscript's wording **was not located** among R1–R7. Same-cohort gate tuning, if used, is not a new independent blind evaluation. |
 | Later production-stability qualification | [HF final production-stress audit](https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/StressResults/ICWDS_FinalMainLDM_ProductionStress_v1/%E6%AD%A3%E5%BC%8F%E7%94%9F%E4%BA%A7%E7%A8%B3%E5%AE%9A%E6%80%A7%E5%88%A4%E5%AE%9A.json) | Explicitly **FAILED** (`qualified_for_production_stability=false`); excluded as positive result, but must be reconciled before strong operational claims. |
 
 ## Exact, potentially conflicting findings
@@ -27,3 +27,15 @@ Only **located public assets** are marked 'located.' Values taken from the paper
 ## Evidence promotion policy
 
 An experiment goes into the verified manuscript-results directory only after its original code, exact HF revision, data cohort, complete result files and noncontradictory gate decision are matched. Failed/diagnostic or older prototype results remain only in the evidence matrix or exclusion notes, not the recommended reproduction manifest.
+
+### New evidence from original R1–R7 stress-test packages
+
+- R1: diagnostic NDBC First5-based dataset, **2024–2025**, 6,000 samples / 48 stations; NOT the final 2006–2009 cohort.
+- R2: **production stability failed** for a C8A2R1 frozen main-LDM on 4,499 primary cases and 5,406 broader cases.
+- R3: forensic safety selection returned **DIRECT_ONLY** (safe but no useful LDM selection).
+- R4: P2A0 pilot did not pass its complete follow-up qualification.
+- R5: P2A0R1_FIX2 pilot **qualified for P2A1** on an independent 2014–2017 holdout; **pilot_not_production=true**.
+- R6: P2A1 candidate **not qualified** on 2010–2013 due NNSI catastrophic-rate gate; P2-A1 remained eligible for inspection as a candidate, not a certified model.
+- R7: final 2006–2009, **35-site/1,200-case** test explicitly **FAILED_NO_FREEZE** for both P2-A1 and fallback FIX2, due NNSI Dp severe excess relative to Direct; no final model selected.
+
+The 39 catastrophic flags in the P2-A1 candidate (11 MEM-II, 10 NNSI, 18 Fourier) numerically match the manuscript's 96.75% initial pass figure. Catastrophic-flag complement alone does not independently reproduce the manuscript's complete composite usability criteria. Sample-level 47×72 arrays confirm Direct MSE 0.01313746 and candidate MSE 0.00983670, giving **25.1248%** relative improvement. See [the R7 audit](STRESS_TEST_R1_R7_AUDIT.md).

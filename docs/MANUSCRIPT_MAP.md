@@ -11,6 +11,6 @@ This file maps sections in the JTECH-formatted English manuscript to the exact s
 | §3.1 | Synthetic partitioning | synthetic generator + labels + all baselines + per-sample scores | manuscript figure only |
 | §3.2 | Inverse-Fourier artifact suppression | original simulation + Fourier/MEM/NNSI baselines + conservation audit | manuscript figure only |
 | §3.3 | E2E physical plots & classical model results | exact benchmark cases, scripts, per-case CSV, evaluation metrics | manuscript figures + C5D older stage results not equivalent |
-| §3.4 | Historical 2006–2009, 35-site / 1200-case stress | cohort list, training exclusion proof, 3 seeds, packet+CRC, results before/after gate, confidence intervals | manuscript only; exact raw archive not located |
+| §3.4 | Historical 2006–2009, 35-site / 1200-case stress | cohort list, training exclusion proof, 3 seeds, packet+CRC, results before/after gate, confidence intervals | R7 source archive located in author uploads; metrics and 1,200-case spectra verified; **FAILED production gate**, original bytes not yet publicly deposited |
 
 **Do not replace** the final 1200-case audit with C7C5's 1824-case freeze or the later 4499/5406-case failed production audit: these are different cohorts and model contracts.

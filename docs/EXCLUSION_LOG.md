@@ -17,3 +17,6 @@ The public HF repository contains **many historical experiments**, not a single 
 | Manuscript revised-gate 1200/1200 success claim | Underlying new independent qualification sample not identified; the cited retest used the same cases. It remains a manuscript claim requiring traceable raw outputs. |
 
 **Exclusion does not mean deletion:** original HF assets remain in their source repository under their existing names. We do not overwrite or re-label them. Failed audits are documented candidly in `EVIDENCE_MATRIX.md`.
+
+| User-supplied R7 final 2006–2009 audit | **Completed, auditable, but FAILED** `FINAL_PRODUCTION_AUDIT_FAILED_NO_FREEZE`; scientifically important and indexed honestly as an adverse final qualification, not a successful model release. |
+| User-supplied R6 P2A1 ProductionCandidate | Trained and evaluated but **failed** NNSI catastrophic-rate qualification; not promoted as production-ready. |

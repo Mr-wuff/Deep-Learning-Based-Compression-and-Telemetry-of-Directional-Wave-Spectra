@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "source": "R7 author-uploaded ICWDS_FINAL_ProductionStressFreeze_FULL.zip",
+  "status": "completed_failed_production_qualification",
+  "formal_decision": "FINAL_PRODUCTION_AUDIT_FAILED_NO_FREEZE",
+  "selected_production_model": null,
+  "years": [
+    2006,
+    2007,
+    2008,
+    2009
+  ],
+  "station_count": 35,
+  "sample_count": 1200,
+  "method_counts": {
+    "mem2": 480,
+    "nnsi": 240,
+    "fourier": 480
+  },
+  "packet_bytes": 30,
+  "crc_pass_rate": 1,
+  "zero_payload_overflows": true,
+  "p2a1": {
+    "direct_mean_mse": 0.013137457967277312,
+    "model_mean_mse": 0.009836698482474022,
+    "relative_mean_mse_improvement": 0.2512479577879373,
+    "reported_bootstrap_mean_gain": 0.25127979450618965,
+    "bootstrap_95ci": [
+      0.2312996191074348,
+      0.26938479576307806
+    ],
+    "reported_catastrophic_counts": {
+      "mem2": 11,
+      "nnsi": 10,
+      "fourier": 18,
+      "total": 39
+    },
+    "failed_gate": "tail::nnsi_dp_relative",
+    "gate_value": 0.0125,
+    "gate_max": 0.01
+  },
+  "fix2": {
+    "mean_mse": 0.009948605384036302,
+    "failed_gate": "tail::nnsi_dp_relative",
+    "gate_value": 0.016666666666666663,
+    "gate_max": 0.01
+  },
+  "original_raw_archive_published_on_github": false,
+  "manual_archive_upload_required": true,
+  "postgate_1200of1200_success_report_located": false,
+  "notes": "Derived audit summary; original R7 JSON and NPZ are in author-supplied curated archive, not presently committed to this GitHub tree. The 39 flags correspond to one catastrophic criterion, not necessarily the complete manuscript usability composite."
+}

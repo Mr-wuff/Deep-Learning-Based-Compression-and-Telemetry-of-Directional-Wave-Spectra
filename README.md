@@ -6,7 +6,7 @@
 
 Research materials for **Deep Learning-Based Compression and Telemetry of Directional Wave Spectra**, prepared for a manuscript targeting the *Journal of Atmospheric and Oceanic Technology* (JTECH).
 
-> **Research evidence, not a certified production release.** This repository distinguishes frozen artifacts from independently verified manuscript results. A frozen model or a passing protocol audit does **not** establish scientific accuracy across every data domain. The complete 1,200-case manuscript stress-test bundle has **not yet been located in the available archive** and must not be represented as independently reproducible here.
+> **Research evidence, not a certified production release.** This repository distinguishes frozen artifacts from independently verified manuscript results. A frozen model or a passing protocol audit does **not** establish scientific accuracy across every data domain. A matching 2006–2009, 1,200-case audit **has now been located in user-supplied R7 materials**. Its P2-A1 MSE results match the manuscript, but the formal final-production decision **FAILED**; the exact full notebook and raw NPZ have not yet been pushed to this GitHub repository.
 
 ## System overview
 
@@ -70,8 +70,8 @@ Do not transfer GB-scale datasets or model weights into Git history. Original we
 | C5-D benchmark archive | **Located**, but `QUICK_TRAIN` and `old_system_available=false`; stage-specific, not an independent final-paper proof |
 | C7-C5 cross-domain scientific gain | **Mixed**; overall gain reported negative, so not a universal superiority claim |
 | Later production stability audit | **Failed qualification**; expressly excluded from positive-results directory |
-| Manuscript 1,200-case independent stress test and revised-gate retest | **Not yet traced to a matching raw artifact bundle**; manuscript figures alone are insufficient for independent reproduction |
-| Full, exact final training notebooks | **Incomplete** in available archive; early notebooks with placeholder paths are not presented as final scripts |
+| Manuscript 1,200-case initial stress test | **Located in user-supplied R7 archive**; 2006–2009, 35 sites, 1200 cases, matching 25.1% MSE gain/39 catastrophic flags; **final production audit failed**, and raw original bytes are not yet public on GitHub |
+| Later audit notebooks | R5 qualified-pilot and R7 executed final-audit notebooks **recovered from user uploads**; download-ready bundle prepared, original notebook bytes not yet in GitHub |
 
 See [EVIDENCE_MATRIX](docs/EVIDENCE_MATRIX.md) before using numbers in a paper. Paper claims should cite the **specific model revision, evaluation set, code, raw outputs, and scoring rule** that produced them.
 
@@ -91,7 +91,7 @@ Downloading large model packages is opt-in (`--group models`). Raw assets remain
 
 - Public NDBC/CDIP observations and **directional spectra reconstructed from directional moments** are not interchangeable with independent direct measurements of the true 2D spectrum.
 - To avoid train/test contamination, record station IDs, UTC times, reconstruction domain (MEM-II, NNSI, Fourier), deduplication keys and exact dataset revisions.
-- The same 1,200 samples reportedly informed a quality-gate adjustment and its subsequent 100% retest. This **cannot be described as a new independent blind test** without additional held-out data.
+- The R7 formal experiment matches the manuscript initial 39/1200 flagged cases but **fails** its NNSI severe-direction gate; it does not substantiate the manuscript's later 1200/1200 pass claim. A same-cohort post-adjustment retest is not a new blind evaluation.
 - No actual float32 spectrum, checkpoint, packet, or result should be altered solely to improve a demonstration.
 - The absence of a software license in this repository means no additional permission to reuse code is granted by this GitHub repository alone. Dataset licensing is governed by the source HF repositories and original providers.
 
@@ -102,3 +102,7 @@ Manuscript: *Deep Learning-Based Compression and Telemetry of Directional Wave S
 ## Contact and contributions
 
 Please use GitHub Issues for questions about artifact provenance and reproducibility. External contributions should link a dated experiment report, model/data revision, evaluation protocol, and explicit pass/fail gate outcome.
+
+## Added stress-test provenance (November 2026)
+
+The author supplied the original `r1.zip`–`r7.zip` sequence, including a full **2006–2009, 35-station, 1,200-case** audit and executed Notebook. The P2-A1 candidate's Direct-vs-model MSE improves by **25.1248%**; its catastrophic flags total 39 (11 MEM-II / 10 NNSI / 18 Fourier). However, the preregistered `tail::nnsi_dp_relative` gate failed and `FINAL_PRODUCTION_AUDIT_FAILED_NO_FREEZE` is the official decision. See [stress-test provenance audit](docs/STRESS_TEST_R1_R7_AUDIT.md). This finding is **not** a successful production release. The original R7 binary results and code are available in a curated author-download bundle, but have **not yet been pushed into this GitHub tree**.
