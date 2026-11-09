@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "instance_iou": 0.9449958585616615,
+    "ew_dice": 0.9926397018631299,
+    "count_mae": 0.0825,
+    "bg_leak": 0.028672826319553812,
+    "score": 0.750763821569132
+  },
+  "pass_count_gate": true,
+  "pass_iou_gate": true,
+  "recommended_next_step": "run faithful traditional benchmark on the same fixed test set",
+  "created_utc": "2026-07-07T08:38:05.550870+00:00"
+}

@@ -36,6 +36,42 @@
       "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/c5d_final_report.json",
       "method": "parsed JSON reserialized; not byte-for-byte original",
       "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_分域指标.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_分域指标.csv",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_正式门槛表.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式门槛表.csv",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_各谱形类别指标.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_各谱形类别指标.csv",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c5d/c5d_final_summary.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/c5d_final_summary.csv",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/segmentation/final_validation_by_case.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveSystemSetParserV5/checkpoints/final_validation_by_case.csv",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/segmentation/experiment_decision.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveSystemSetParserV5/checkpoints/experiment_decision.json",
+      "method": "raw text fetched from HF public endpoint",
+      "date": "2026-11-09"
     }
   ],
   "source_code": [

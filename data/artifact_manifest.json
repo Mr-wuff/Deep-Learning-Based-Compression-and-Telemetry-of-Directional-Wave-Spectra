@@ -173,6 +173,38 @@
       "repo_id": "wuff-mann/Wave_compress_system",
       "path": "VAE.py",
       "status": "public_reference_source"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5_正式门槛表.csv",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式门槛表.csv",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "C7C5_各谱形类别指标.csv",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_各谱形类别指标.csv",
+      "status": "frozen_contract_qualified"
+    },
+    {
+      "group": "reports",
+      "name": "final_validation_by_case.csv",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveSystemSetParserV5/checkpoints/final_validation_by_case.csv",
+      "status": "stage_final_not_paper_final"
+    },
+    {
+      "group": "reports",
+      "name": "experiment_decision.json",
+      "repo_type": "model",
+      "repo_id": "wuff-mann/Wave_compress_system",
+      "path": "WaveSystemSetParserV5/checkpoints/experiment_decision.json",
+      "status": "stage_final_not_paper_final"
     }
   ]
 }
