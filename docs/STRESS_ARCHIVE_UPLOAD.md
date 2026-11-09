@@ -1,5 +1,24 @@
 # Publish the ICWDS R5–R7 stress-test archive
 
+## Fastest option: direct web upload (no script)
+
+If you already have `ICWDS_1200Case_StressTest_R5_R7_Curated_Archive_FIX2.zip`, **do not run a publisher script**. Log into GitHub, open [New release](https://github.com/Mr-wuff/Deep-Learning-Based-Compression-and-Telemetry-of-Directional-Wave-Spectra/releases/new), enter tag `icwds-r5-r7-stress-2006-2009-audit-v1`, attach the unchanged ZIP in the Releases asset area, then publish.
+
+The FIX2 archive has been locally verified as **15,542,299 bytes** with SHA-256:
+
+```text
+babf2deba4d852e29cc79166d28de11d19c8a86db246d44302a91d30ce251bd0
+```
+
+Its internal 32-file `SHA256SUMS.txt` check passed. You may verify the ZIP itself using PowerShell:
+
+```powershell
+(Get-FileHash -Algorithm SHA256 -LiteralPath ".\ICWDS_1200Case_StressTest_R5_R7_Curated_Archive_FIX2.zip").Hash.ToLowerInvariant()
+```
+
+The original research archive includes the R7 adverse decision; the Release description must disclose **FAILED production qualification**, not claim unconditional success. Send the public Release URL back for inclusion in the repository README and the manuscript's Data Availability Statement.
+
+
 ## Recommended: GitHub Releases (no Git/Git LFS needed)
 
 The archival package is approximately 15 MB. GitHub Releases can host the original ZIP as a **release asset**, leaving the Git commit history lightweight and avoiding Git LFS entirely. The user-uploaded FIX3 bundle contains a PowerShell 5.1 script named `scripts/Publish_Stress_Archive_NoGit.ps1`.
