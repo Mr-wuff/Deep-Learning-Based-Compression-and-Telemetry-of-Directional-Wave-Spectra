@@ -1,0 +1,155 @@
+{
+  "stage": "C7-C5",
+  "qualified_for_production": true,
+  "formal_decision": "FINAL_SAFE_SYSTEM_FROZEN",
+  "packet_bytes": 30,
+  "source_package_sha256": "d1e95bcb0f1efac5a8bbc2d73f7dc2a1a11b291e97ed9b80dd1e58a4f0e2e853",
+  "final_package_sha256": "f2e9852003640c154359f0f38a767dbf3ff22948ee78fea5ca50e176771abe3c",
+  "deployment_direct_mode": "C7C3_ONLY",
+  "conditioner_deployment_mode": "LEGACY_CONDITIONER_ONLY",
+  "R1_deployment_enabled": false,
+  "Router_deployment_enabled": false,
+  "topology_condition_deployment_enabled": false,
+  "files": {
+    "C7C5_分域指标.csv": {
+      "bytes": 881,
+      "sha256": "384c20bba0dc115b7c02f4efaaf3f1bec12f3546f00690b22b013256ee5785b5"
+    },
+    "03_各谱形类别最终安全路径收益.pdf": {
+      "bytes": 25548,
+      "sha256": "cdd7e050da81e8031068749ee5da2eb77f5657dcf1bfbea794c6682aeb7ba3eb"
+    },
+    "04_Exact30B报文与确定性审计.pdf": {
+      "bytes": 19212,
+      "sha256": "c0cf65f8ca25c657cf867faef4695d684fb49f838a7521b3ecba47f7257498f6"
+    },
+    "C7C5_最终逐样本审计.csv": {
+      "bytes": 415700,
+      "sha256": "aaef923a4ecee55412423a302f11724fc284826e89d2abfb81a3d7e9a8d2e234"
+    },
+    "C7C5_First5归一化谱形审计.csv": {
+      "bytes": 77964,
+      "sha256": "92413f47f1e08b6ab007a18ae2b1649c6ebbda1b9cf7048d63f0e0c134b3a9c4"
+    },
+    "C7C5_正式门槛表.csv": {
+      "bytes": 670,
+      "sha256": "6d22ff12abdbb371ccc4ae676517e40b41ff07bd0527c0848e92a29294105ecf"
+    },
+    "C7C5_Bootstrap区间.json": {
+      "bytes": 620,
+      "sha256": "71b11974b2d3a3a65b6acf879f0f6c8209484ced947ccbacaf3b21e7f7237a9a"
+    },
+    "图表集清单.json": {
+      "bytes": 1056,
+      "sha256": "69db32137a68e386e984b99ca84218fd78c58658e064ea700cfcfe28a04758c5"
+    },
+    "01_最终安全路径跨数据域收益.pdf": {
+      "bytes": 26263,
+      "sha256": "72152dcf2c6ce764d72f057a2556eb85a0f64741c155987e55095f6eaadf6611"
+    },
+    "02_最终安全路径逐样本MSE.svg": {
+      "bytes": 307698,
+      "sha256": "a937b3808d734fe2a4d2e4ee97eb947a988fb65e1f5052ca6dc7e4dd6c1e9b94"
+    },
+    "02_最终安全路径逐样本MSE.pdf": {
+      "bytes": 48249,
+      "sha256": "a521dcb82424fc134722efc8264ba3010ddbd3e0124780ff49529ab9b1449d20"
+    },
+    "01_最终安全路径跨数据域收益.png": {
+      "bytes": 140441,
+      "sha256": "9af1ddffc0e73c94e51cc0bcdcc6ad649aef77b1d17620d54f485cfa2ded86a6"
+    },
+    "C7C5_报文可靠性摘要.json": {
+      "bytes": 357,
+      "sha256": "ed0314045b3dd0d79e15b7b9b8186704e7aa465b33560a2ec8b7f7ba5160e196"
+    },
+    "02_最终安全路径逐样本MSE.png": {
+      "bytes": 389897,
+      "sha256": "8252faded98444c714bdd6fc1f12be14d66fda0bf7111152c84ca1f286d3e48b"
+    },
+    "05_C7C5最终正式冻结门槛.png": {
+      "bytes": 594564,
+      "sha256": "d83e05dd989ca9b507fbef0d1b426c8109e6c631bc3244fa6327b2b579ff77dd"
+    },
+    "01_最终安全路径跨数据域收益.svg": {
+      "bytes": 48503,
+      "sha256": "1983f1fa56d01431390d737a6eb1706c3068b49402d4455522b6b3d762225157"
+    },
+    "04_Exact30B报文与确定性审计.png": {
+      "bytes": 175353,
+      "sha256": "74f83afb11118bc316002b9b063067c803f36f243a4923548aa5158e16f209ce"
+    },
+    "C7C5_各谱形类别指标.csv": {
+      "bytes": 1129,
+      "sha256": "9c32d570ce2743d9d3b68a13584915c0c6959c9d32c04a625d05acc7ade6fd8d"
+    },
+    "C7C5_正式冻结判定.json": {
+      "bytes": 7868,
+      "sha256": "9fcef1cc535f4135b44e4f88121210f5ce1f5a7972e171249e474899d9734b68"
+    },
+    "C7C5_数据清单.json": {
+      "bytes": 298,
+      "sha256": "2c40e2232ea494f4c9e6c1386729d770c223cb7785f9685d74830ed45da76b86"
+    },
+    "C7C5_冻结哈希审计.json": {
+      "bytes": 1475,
+      "sha256": "34a4e9e8edc0ed0f70bbe512eea729d595bc5b2d2f267108b1cda985c1395de7"
+    },
+    "06_最终端到端代表样本矩形对比.svg": {
+      "bytes": 566101,
+      "sha256": "dfc443ff01ffa9c9d97bb031d2db5d38e998b3a6329104766f3a43afdcebc511"
+    },
+    "C7C5_CRC篡改检测逐样本.csv": {
+      "bytes": 3535,
+      "sha256": "c693fa6d2a8f58653cfe3b0565be4e38df76fc9846fe3068bc2f553b234e1fb1"
+    },
+    "06_最终端到端代表样本矩形对比.png": {
+      "bytes": 626534,
+      "sha256": "e79f3551901b0264ce4495bd1b1e1cf48523395d5ca579cb3bbe918d83c8c2eb"
+    },
+    "C7C5_First5归一化谱形汇总.csv": {
+      "bytes": 1025,
+      "sha256": "40fb6ba3099de8b15681c3102631f80e8c6605d788ecfe6b7acec018ff6149d2"
+    },
+    "PACKAGE.pt": {
+      "bytes": 323019662,
+      "sha256": "f2e9852003640c154359f0f38a767dbf3ff22948ee78fea5ca50e176771abe3c"
+    },
+    "06_最终端到端代表样本矩形对比.pdf": {
+      "bytes": 243098,
+      "sha256": "073318855bbbf82324167a349c92a36c4d5804ca8f1e0cf816a78398903b3cb4"
+    },
+    "03_各谱形类别最终安全路径收益.png": {
+      "bytes": 269473,
+      "sha256": "44c27babbf6f37da906854d2432f8fa298fff7daf9fa0bb661c139bdf8df8b2e"
+    },
+    "C7C5_配置.json": {
+      "bytes": 955,
+      "sha256": "8f74bf3f0e72c50067b73a1fe7af005a9223957db39bb43e9c898f499f61ec21"
+    },
+    "03_各谱形类别最终安全路径收益.svg": {
+      "bytes": 52329,
+      "sha256": "ac3aa203ada23b2898388a7f7f1afba3f235e663306a82eadb44d5d49345b69f"
+    },
+    "C7C5_正式门槛.json": {
+      "bytes": 2475,
+      "sha256": "7f8dc404566889f7e722e2fc42c0f6130e278e9557ca8df1b9b9f005bc45b5a3"
+    },
+    "04_Exact30B报文与确定性审计.svg": {
+      "bytes": 40820,
+      "sha256": "6e138552198e8e3b42b67db3aad6c83ecf7cec5c1d00407238d5a2fd24783cf7"
+    },
+    "05_C7C5最终正式冻结门槛.svg": {
+      "bytes": 95360,
+      "sha256": "ce01526347c4801edeada7b8a00bdc7eacb80ad069ee6f8bbf6e49557cafabfc"
+    },
+    "C7C5_正式摘要.json": {
+      "bytes": 4434,
+      "sha256": "7a54d0c6435fa249c4700183015be56f7c1bd264663d5f158d33e3dc86a73742"
+    },
+    "05_C7C5最终正式冻结门槛.pdf": {
+      "bytes": 28924,
+      "sha256": "802c1d8581044589682bd94daf78676b4cac4d0fc44150b0b3175dff5b82aed5"
+    }
+  }
+}

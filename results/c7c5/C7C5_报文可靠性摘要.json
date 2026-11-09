@@ -1,0 +1,14 @@
+{
+  "n": 32,
+  "packet_bytes_min": 30,
+  "packet_bytes_max": 30,
+  "crc_valid_rate": 1,
+  "mode_bit_zero_rate": 1,
+  "payload_overflow_count": 0,
+  "unique_packet_rate": 0.9824561403508771,
+  "payload_tamper_rejection_rate": 1,
+  "crc_tamper_rejection_rate": 1,
+  "packet_match_rate": 1,
+  "direct_max_abs_diff": 0,
+  "model_max_abs_diff": 0
+}

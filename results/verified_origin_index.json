@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "reports": [
+    {
+      "github_mirror": "results/c7c5/C7C5_正式冻结判定.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式冻结判定.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_正式摘要.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_正式摘要.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_发布清单.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_发布清单.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_冻结哈希审计.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_冻结哈希审计.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_报文可靠性摘要.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_报文可靠性摘要.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c5d/c5d_final_report.json",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C5D_FinalEndToEndBenchmark/latest/c5d_final_report.json",
+      "method": "parsed JSON reserialized; not byte-for-byte original",
+      "date": "2026-11-09"
+    }
+  ],
+  "source_code": [
+    {
+      "github_mirror": "src/hf_reference/CNN.py",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/CNN.py",
+      "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "src/hf_reference/VAE.py",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/VAE.py",
+      "date": "2026-11-09"
+    }
+  ]
+}

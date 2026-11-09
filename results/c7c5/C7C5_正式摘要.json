@@ -1,0 +1,107 @@
+{
+  "stage": "C7-C5",
+  "qualified_for_production": true,
+  "deployment_direct_mode": "C7C3_ONLY",
+  "conditioner_deployment_mode": "LEGACY_CONDITIONER_ONLY",
+  "R1_deployment_enabled": false,
+  "Router_deployment_enabled": false,
+  "topology_condition_deployment_enabled": false,
+  "training_performed": false,
+  "packet_bytes": 30,
+  "audit_n": 1824,
+  "overall_MSE_gain_vs_direct": -0.008497151875577088,
+  "overall_improvement_rate": 0.5537280701754386,
+  "overall_harmful_rate_gt1pct": 0.38377192982456143,
+  "bootstrap": {
+    "overall": {
+      "lower": -0.012887110216598436,
+      "median": -0.008522043717506596,
+      "upper": -0.003893554138963536
+    },
+    "NDBC": {
+      "lower": 0.03051175292070216,
+      "median": 0.03549495115248649,
+      "upper": 0.04079003681012977
+    },
+    "MEM2": {
+      "lower": 0.0053512431082758305,
+      "median": 0.012688274939043329,
+      "upper": 0.02107808826131196
+    },
+    "NNSI": {
+      "lower": 0.015004532095179674,
+      "median": 0.027310147604843293,
+      "upper": 0.04078097516524623
+    },
+    "REAL_ATLAS": {
+      "lower": -0.0482820205609188,
+      "median": -0.04142247419525075,
+      "upper": -0.034874557455408406
+    }
+  },
+  "packet_summary": {
+    "n": 32,
+    "packet_bytes_min": 30,
+    "packet_bytes_max": 30,
+    "crc_valid_rate": 1,
+    "mode_bit_zero_rate": 1,
+    "payload_overflow_count": 0,
+    "unique_packet_rate": 0.9824561403508771,
+    "payload_tamper_rejection_rate": 1,
+    "crc_tamper_rejection_rate": 1,
+    "packet_match_rate": 1,
+    "direct_max_abs_diff": 0,
+    "model_max_abs_diff": 0
+  },
+  "source_package_sha256": "d1e95bcb0f1efac5a8bbc2d73f7dc2a1a11b291e97ed9b80dd1e58a4f0e2e853",
+  "source_core_hashes": {
+    "cnn": "1b6fe9fbfc62e0eb770daee41509d8bd90c82279169b9192418509580911aec2",
+    "front": "87adc5232fe88ab8327048ad791ffcadbf4055b39ec460efeb8b29ffe9ce2acf",
+    "slope_upgrade": "b0c84ba881e6ec8aac6bb62ad5c7e396b84cce08d4db4b936b5dc66c43e710dd",
+    "tail_renderer": "01c4770c994ec042233f5b591a7217bba8deb20057c3af65c9f35aff8a5b9e40",
+    "autoencoder": "5ed68fe9e8e27a7d546b9234d0d874510e3cb80f5bd6e10a23fed4a814ebad4c",
+    "legacy_conditioner": "f6fd46401352634498761b5c495e5d1bd769b418cb047e9a9758f8eed68fbd8d",
+    "gate_anchor": "624c30d76ebbd20a6f770debbdf3c003d7999ab74c86718e8981771ac42377e9",
+    "ldm": "f7b63548c406dd3436809be9773b7a5fbdebc132ccdbbd23ee858e09255f9421",
+    "gate_calibrator": "8f9413a0ca7aa827091244f43b692d4be671e915a0459c6d669cddfda3ed55b9"
+  },
+  "final_core_hashes": {
+    "cnn": "1b6fe9fbfc62e0eb770daee41509d8bd90c82279169b9192418509580911aec2",
+    "front": "87adc5232fe88ab8327048ad791ffcadbf4055b39ec460efeb8b29ffe9ce2acf",
+    "slope_upgrade": "b0c84ba881e6ec8aac6bb62ad5c7e396b84cce08d4db4b936b5dc66c43e710dd",
+    "tail_renderer": "01c4770c994ec042233f5b591a7217bba8deb20057c3af65c9f35aff8a5b9e40",
+    "autoencoder": "5ed68fe9e8e27a7d546b9234d0d874510e3cb80f5bd6e10a23fed4a814ebad4c",
+    "legacy_conditioner": "f6fd46401352634498761b5c495e5d1bd769b418cb047e9a9758f8eed68fbd8d",
+    "gate_anchor": "624c30d76ebbd20a6f770debbdf3c003d7999ab74c86718e8981771ac42377e9",
+    "ldm": "f7b63548c406dd3436809be9773b7a5fbdebc132ccdbbd23ee858e09255f9421",
+    "gate_calibrator": "8f9413a0ca7aa827091244f43b692d4be671e915a0459c6d669cddfda3ed55b9"
+  },
+  "core_hash_mismatches": [],
+  "quarantined_experimental_branches": {
+    "topology_condition_parent_side_branch_state_dict": {
+      "state_sha256": "ae5329b5d2170f4028fd0302a76b45734d710094ecfcb0bc9b2ea4a430142c80",
+      "source_stage": "C7-C4-R1",
+      "deployment_allowed": false
+    },
+    "topology_condition_side_branch_state_dict": {
+      "state_sha256": "d1aac5ff2946a7692fec898f392b7ede3cba73a03832b60355fbd6e966fc6323",
+      "source_stage": "C7-C4-R1",
+      "deployment_allowed": false
+    },
+    "topology_condition_side_branch_architecture": {
+      "value": "{'topology_global_dim': 12, 'topology_slot_dim': 9, 'packet_dim': 512, 'token_dim': 192, 'global_hidden': 128, 'slot_hidden': 128, 'attention_heads': 4, 'attention_layers': 1}",
+      "source_stage": "C7-C4-R1",
+      "deployment_allowed": false
+    },
+    "topology_condition_release_beta": {
+      "value": "1.0",
+      "source_stage": "C7-C4-R1",
+      "deployment_allowed": false
+    },
+    "topology_condition_side_branch_continued": {
+      "value": "True",
+      "source_stage": "C7-C4-R1",
+      "deployment_allowed": false
+    }
+  }
+}
