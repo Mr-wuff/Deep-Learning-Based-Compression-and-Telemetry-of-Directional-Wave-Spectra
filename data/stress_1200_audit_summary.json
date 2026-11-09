@@ -48,5 +48,13 @@
   "original_raw_archive_published_on_github": false,
   "manual_archive_upload_required": true,
   "postgate_1200of1200_success_report_located": false,
-  "notes": "Derived audit summary; original R7 JSON and NPZ are in author-supplied curated archive, not presently committed to this GitHub tree. The 39 flags correspond to one catastrophic criterion, not necessarily the complete manuscript usability composite."
+  "notes": "Derived audit summary; original R7 JSON and NPZ are in author-supplied curated archive, not presently committed to this GitHub tree. The 39 flags correspond to one catastrophic criterion, not necessarily the complete manuscript usability composite.",
+  "known_author_upload_sha256": {
+    "r7.zip": "4ff7da7109eb12e71a83303d98655c443bcc0a7adcf1b4de914026d2a9a17e8a",
+    "ICWDS_FINAL_ProductionStressFreeze_FULL.zip": "01fcd4dca62f704bb883ce99532267b585691af7535c79a99d0e9957d6e318ab",
+    "ICWDS_FINAL_FIX1_original_notebook.ipynb": "66ba1a131c75dfcfb2f2aaa679d6a47b71acecaf593cf8d324c5957f658026a0",
+    "ICWDS_1200Case_StressTest_R5_R7_Curated_Archive.zip": "e33c65d0b7b7de0806b9d9b5a82c0d10cc90152925869488c422f42e6437f2a9"
+  },
+  "verified_archive_location": "User conversation downloadable archive; not yet deposited as GitHub files.",
+  "recomputation_method": "float16 stored reference/direct/model arrays converted to float64, mean squared pixel differences; no pickle/code execution"
 }
