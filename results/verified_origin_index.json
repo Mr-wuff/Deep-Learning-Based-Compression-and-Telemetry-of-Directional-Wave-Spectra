@@ -72,6 +72,34 @@
       "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveSystemSetParserV5/checkpoints/experiment_decision.json",
       "method": "raw text fetched from HF public endpoint",
       "date": "2026-11-09"
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_最终逐样本审计.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_最终逐样本审计.csv",
+      "method": "verbatim public CSV text",
+      "date": "2026-11-09",
+      "lines": 1825
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_First5归一化谱形审计.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_First5归一化谱形审计.csv",
+      "method": "verbatim public CSV text",
+      "date": "2026-11-09",
+      "lines": 386
+    },
+    {
+      "github_mirror": "results/c7c5/C7C5_CRC篡改检测逐样本.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveCleanLDM/C7C5_FinalSafeFreeze/latest/C7C5_CRC篡改检测逐样本.csv",
+      "method": "verbatim public CSV text",
+      "date": "2026-11-09",
+      "lines": 258
+    },
+    {
+      "github_mirror": "results/segmentation/final_validation_details.csv",
+      "hf_source": "https://huggingface.co/wuff-mann/Wave_compress_system/blob/main/WaveSystemSetParserV5/checkpoints/final_validation_details.csv",
+      "method": "verbatim public CSV text",
+      "date": "2026-11-09",
+      "lines": 1202
     }
   ],
   "source_code": [
